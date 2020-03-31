@@ -12,7 +12,7 @@
 
 |2020|||
 |-|-|-|
-|[第一期](./docs/ningowood-001.md)|[第二期 :heart:](./docs/ningowood-002.md)||
+|[第一期](./docs/ningowood-001.md)|[第二期](./docs/ningowood-002.md)|[第三期 :heart:](./docs/ningowood-003.md)|
 
 ## 选刊指南
 
@@ -34,6 +34,7 @@
 * [Q 资讯](https://www.infoq.cn/profile/1691780/publish)
 * [InfoQ 开源专栏](https://www.infoq.cn/topic/opensource)：更新频率较高，新闻咨询类适中
 * [开源之道](http://opensourceway.community)：更新频率很高，原创度很高，对开源的认知程度很广
+* [开源中国](https://www.oschina.net/)：更新频率很高
 * [开源社](https://kaiyuanshe.cn)：更新频率低，主要围绕自身线下活动
 * ......逐步添加中
 
@@ -46,12 +47,17 @@
 开源期刊
 
 * [云原生生态周报](https://s.geekbang.org/search/c=0/k=%E4%BA%91%E5%8E%9F%E7%94%9F%E7%94%9F%E6%80%81%E5%91%A8%E6%8A%A5/t=)
+* [HelloGithub](https://hellogithub.com/)
 * ......逐步添加中
 
-开源活动
+国际活动
 
 * [O'Reilly Open Source Conference](https://conferences.oreilly.com/oscon/oscon-or)
 * ......逐步添加中
+
+国内活动
+
+* [OSC 源创会](https://www.oschina.net/event/ych)
 
 ## 如何订阅
 
