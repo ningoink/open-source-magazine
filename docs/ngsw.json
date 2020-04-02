@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1585818867375,
+  "index": "open-source-magazine/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "open-source-magazine/favicon.ico",
+        "open-source-magazine/index.html",
+        "open-source-magazine/main-es2015.e2de00728870949b0fa1.js",
+        "open-source-magazine/main-es5.e2de00728870949b0fa1.js",
+        "open-source-magazine/manifest.webmanifest",
+        "open-source-magazine/polyfills-es2015.bbb42ff2e1c488ff52d5.js",
+        "open-source-magazine/polyfills-es5.0e4e1968447fab48e788.js",
+        "open-source-magazine/runtime-es2015.c9afb3256f2870e161de.js",
+        "open-source-magazine/runtime-es5.c9afb3256f2870e161de.js",
+        "open-source-magazine/styles.bf3e703a3a1ac4b8d2cb.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "open-source-magazine/assets/icons/icon-128x128.png",
+        "open-source-magazine/assets/icons/icon-144x144.png",
+        "open-source-magazine/assets/icons/icon-152x152.png",
+        "open-source-magazine/assets/icons/icon-192x192.png",
+        "open-source-magazine/assets/icons/icon-384x384.png",
+        "open-source-magazine/assets/icons/icon-512x512.png",
+        "open-source-magazine/assets/icons/icon-72x72.png",
+        "open-source-magazine/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "open-source-magazine/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "open-source-magazine/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "open-source-magazine/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "open-source-magazine/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "open-source-magazine/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "open-source-magazine/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "open-source-magazine/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "open-source-magazine/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "open-source-magazine/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "open-source-magazine/index.html": "a0c46f656270954911ad8d044d6b37b6386eb9ac",
+    "open-source-magazine/main-es2015.e2de00728870949b0fa1.js": "2e564cf1866f9988e613d20ac217387cfae7bd16",
+    "open-source-magazine/main-es5.e2de00728870949b0fa1.js": "74edc9100968ad5694e85537cc1023bd7760506e",
+    "open-source-magazine/manifest.webmanifest": "a2447fb3096f883608f7fa54cbec84ee69737dd3",
+    "open-source-magazine/polyfills-es2015.bbb42ff2e1c488ff52d5.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "open-source-magazine/polyfills-es5.0e4e1968447fab48e788.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
+    "open-source-magazine/runtime-es2015.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "open-source-magazine/runtime-es5.c9afb3256f2870e161de.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "open-source-magazine/styles.bf3e703a3a1ac4b8d2cb.css": "8cd3ec225109f6266fd950e34042c741805b4d7c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
