@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment'
+import { environment } from '../environments/environment';
+import { OsmContentComponent } from './osm-content/osm-content.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OsmContentComponent
   ],
   imports: [
     BrowserModule,
