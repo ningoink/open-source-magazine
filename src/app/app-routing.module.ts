@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
-import { OsmBrowseComponent } from './osm-browse/osm-browse.component'
-import { OsmExploreComponent } from './osm-explore/osm-explore.component'
+import { OsmBrowserComponent } from './osm-browser/osm-browser.component'
+import { OsmExplorerComponent } from './osm-explorer/osm-explorer.component'
 
 const routes: Routes = [
-  { path: '', component: OsmBrowseComponent },
-  { path: 'explore', component: OsmExploreComponent },
+  { path: '', component: OsmBrowserComponent },
+  { path: 'explore', component: OsmExplorerComponent },
 ]
 
 @NgModule({
