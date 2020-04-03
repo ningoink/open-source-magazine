@@ -3,15 +3,17 @@ import { NgModule } from '@angular/core'
 
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
-import { OsmContentComponent } from './osm-content/osm-content.component'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { ServiceWorkerModule } from '@angular/service-worker'
+import { environment } from '../environments/environment'
+import { OsmBrowseComponent } from './osm-browse/osm-browse.component'
+import { OsmExploreComponent } from './osm-explore/osm-explore.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    OsmContentComponent
+    OsmBrowseComponent,
+    OsmExploreComponent
   ],
   imports: [
     BrowserModule,
