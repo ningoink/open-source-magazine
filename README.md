@@ -18,7 +18,11 @@
 
 以下列表根据覆盖范围、更新频度和内容质量综合排名，每个月的开源最新动态优先从这里寻找。同时，这也将是一份开源咨询平台的图谱。
 
-国际开源
+> 以下内容即将以 UI 页面的形式进行展示，尽请期待 v0.1.0 版本上线。
+
+### 国际开源
+
+媒体
 
 * [Google News -> Open Source](https://www.google.com/search?q=open+source&tbm=nws)：重要战场
 * [ZDNet Open Source Topic](https://www.zdnet.com/topic/open-source/): 更新频率高，内容多
@@ -28,7 +32,24 @@
 * [opensource.org](https://opensource.org)：更新频率低，主要围绕 OSI 自身
 * ......逐步添加中
 
-国内开源
+公司
+
+* [MicroSoft 开源](https://opensource.microsoft.com/)
+* [Facebook 开源](https://opensource.facebook.com/)
+* ......逐步添加中
+
+期刊
+
+* ......逐步添加中
+
+活动
+
+* [O'Reilly Open Source Conference](https://conferences.oreilly.com/oscon/oscon-or)
+* ......逐步添加中
+
+### 国内开源
+
+媒体
 
 * [百度新闻 -> 开源](https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&word=%E5%BC%80%E6%BA%90)
 * [Q 资讯](https://www.infoq.cn/profile/1691780/publish)
@@ -38,24 +59,17 @@
 * [开源社](https://kaiyuanshe.cn)：更新频率低，主要围绕自身线下活动
 * ......逐步添加中
 
-公司开源(主站而非新闻站)
+公司
 
-* [MicroSoft 开源](https://opensource.microsoft.com/)
-* [Facebook 开源](https://opensource.facebook.com/)
 * ......逐步添加中
 
-开源期刊
+期刊
 
 * [云原生生态周报](https://s.geekbang.org/search/c=0/k=%E4%BA%91%E5%8E%9F%E7%94%9F%E7%94%9F%E6%80%81%E5%91%A8%E6%8A%A5/t=)
 * [HelloGithub](https://hellogithub.com/)
 * ......逐步添加中
 
-国际活动
-
-* [O'Reilly Open Source Conference](https://conferences.oreilly.com/oscon/oscon-or)
-* ......逐步添加中
-
-国内活动
+活动
 
 * [OSC 源创会](https://www.oschina.net/event/ych)
 
@@ -66,6 +80,14 @@ Star 本项目代表支持与收藏；Watch 本项目代表订阅最及时的 is
 本刊 [贡献者列表](./contributor.md)，以及凝果屋的微信公众号（@ningowood）：
 
 ![](http://qiniu.ningo.cloud/official-qrcode.png)
+
+## 本地开发
+
+Github Pages 部署
+
+```bash
+$ ng build --prod --output-path docs --base-href open-source-magazine
+```
 
 ## 开源协议
 
