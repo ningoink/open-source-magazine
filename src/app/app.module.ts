@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { environment } from '../environments/environment'
 import { OsmBrowserComponent } from './pages/osm-browser/osm-browser.component'
-import { OsmExplorerComponent } from './pages/osm-explorer/osm-explorer.component'
+import { OsmExplorerComponent } from './pages/osm-explore/osm-explore.component'
 
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatButtonModule } from '@angular/material/button'
