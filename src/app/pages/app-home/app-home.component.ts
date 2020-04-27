@@ -1,19 +1,12 @@
-import {Component, NgModule, OnInit} from '@angular/core'
-import {SvgViewerModule} from '../../shared/svg-viewer/svg-viewer'
-import {MatButtonModule} from '@angular/material/button'
-import {FooterModule} from '../../shared/footer/footer'
-import {RouterModule, Routes} from '@angular/router'
-import {ComponentPageTitle} from '../page-title/page-title'
-import {NavigationFocusModule} from '../../shared/navigation-focus/navigation-focus'
+import { Component, OnInit } from '@angular/core'
+import { ComponentPageTitle } from 'src/app/shared/page-title'
 
 @Component({
   selector: 'app-homepage',
-  templateUrl: './homepage.html',
-  styleUrls: ['./homepage.scss']
+  templateUrl: './app-home.component.html',
+  styleUrls: ['./app-home.component.scss']
 })
-export class Homepage implements OnInit {
-  isNextVersion = location.hostname.startsWith('next.material.angular.io')
-
+export class AppHomeComponent implements OnInit {
   constructor(public _componentPageTitle: ComponentPageTitle) {}
 
   ngOnInit(): void {

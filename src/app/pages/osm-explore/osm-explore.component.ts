@@ -3,9 +3,9 @@ import { map } from 'rxjs/operators'
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout'
 
 @Component({
-  selector: 'app-osm-explorer',
-  templateUrl: './osm-explorer.component.html',
-  styleUrls: ['./osm-explorer.component.scss']
+  selector: 'app-osm-explore',
+  templateUrl: './osm-explore.component.html',
+  styleUrls: ['./osm-explore.component.scss']
 })
 export class OsmExplorerComponent {
   /** Based on the screen size, switch from standard to one column per row */

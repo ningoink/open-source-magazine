@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
-import { OsmBrowserComponent } from './pages/osm-browser/osm-browser.component'
+// import { OsmBrowserComponent } from './pages/osm-browser/osm-browser.component'
 // import { OsmExploreComponent } from './pages/osm-explore/osm-explore.component'
 
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pages/app-home.module').then(m => m.HomepageModule)
+    loadChildren: () => import('./pages/app-home/app-home.module').then(m => m.AppHomeModule)
   },
   {
     path: 'browser',
-    loadChildren: () => import('./pages/osm-browser.module').then(m => n.OsmBrowserModule)
+    loadChildren: () => import('./pages/osm-browser/osm-browser.module').then(m => m.OsmBrowserModule)
   },
   // {
   //   path: 'explore',
@@ -36,6 +36,7 @@ const routes: Routes = [
   //   path: 'article/:id',
   //   loadChildren: () => import('./pages/guide-viewer').then(m => m.GuideViewerModule)
   // },
+  { path: '**', redirectTo: '' },
 ]
 
 @NgModule({
@@ -43,17 +44,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-
-import {Routes} from '@angular/router';
-import {CanActivateComponentSidenav} from './pages/component-sidenav/component-sidenav-can-load-guard';
-
-export const MATERIAL_DOCS_ROUTES: Routes = [
-  // {
-  //   path: ':section',
-  //   canActivate: [CanActivateComponentSidenav],
-  //   loadChildren: () =>
-  //     import('./pages/component-sidenav/component-sidenav').then(m => m.ComponentSidenavModule)
-  // },
-  {path: '**', redirectTo: ''},
-];

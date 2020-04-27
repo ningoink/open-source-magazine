@@ -9,7 +9,6 @@ import { map, shareReplay } from 'rxjs/operators'
   styleUrls: ['./osm-browser.component.scss']
 })
 export class OsmBrowserComponent {
-
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
       map(result => result.matches),
@@ -17,5 +16,4 @@ export class OsmBrowserComponent {
     )
 
   constructor(private breakpointObserver: BreakpointObserver) {}
-
 }

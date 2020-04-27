@@ -6,8 +6,6 @@ import { ServiceWorkerModule } from '@angular/service-worker'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { environment } from '../environments/environment'
-import { OsmBrowserComponent } from './pages/osm-browser/osm-browser.component'
-import { OsmExplorerComponent } from './pages/osm-explore/osm-explore.component'
 
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatButtonModule } from '@angular/material/button'
@@ -29,11 +27,7 @@ import { MatMenuModule } from '@angular/material/menu'
 // import { MatMenuModule } from '@angular/material/menu'
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    OsmBrowserComponent,
-    OsmExplorerComponent,
-  ],
+  declarations: [],
   imports: [
     BrowserModule,
     AppRoutingModule,
