@@ -1,0 +1,61 @@
+@import '../../../../node_modules/@angular/material/theming';
+@import '../../../styles/constants';
+
+@mixin component-viewer-sidenav-theme($theme) {
+  $primary: map-get($theme, primary);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+  $is-dark-theme: map-get($theme, is-dark);
+  $nav-background-opacity: if($is-dark-theme, 0.2, 0.03);
+  $nav-background-focus-opacity: if($is-dark-theme, 0.25, 0.08);
+
+  .docs-component-viewer-nav-content {
+    background: rgba(0, 0, 0, $nav-background-opacity);
+
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, .26);
+    }
+
+    .docs-nav-content-btn {
+      color: rgba(mat-color($foreground, text), 0.7);
+      font-family: Roboto, "Helvetica Neue", sans-serif;
+
+      &:focus {
+        // override the default background
+        background: rgba(0, 0, 0, $nav-background-focus-opacity);
+      }
+    }
+
+    hr {
+      border: none;
+      border-top: solid 1px rgba(mat-color($foreground, secondary-text), .1)
+    }
+
+    a {
+      color: mat-color($foreground, secondary-text);
+
+      &.docs-component-viewer-sidenav-item-selected,
+      &:hover {
+        color: mat-color($primary, if($is-dark-theme, 200, default));
+      }
+
+      &.docs-component-viewer-sidenav-item-selected {
+        background: rgba(0, 0, 0, $nav-background-focus-opacity);
+      }
+    }
+  }
+
+  @media (max-width: $small-breakpoint-width) {
+    .docs-component-viewer-sidenav {
+      .docs-component-viewer-nav-content {
+        background: none;
+      }
+    }
+
+    .mat-drawer {
+      &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, .26);
+      }
+    }
+  }
+}

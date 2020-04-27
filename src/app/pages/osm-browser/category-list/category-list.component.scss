@@ -1,0 +1,48 @@
+@import '../../../styles/constants';
+
+.docs-component-category-list-summary {
+  padding: 25px 40px 0;
+}
+
+.docs-component-category-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  @media (max-width: $small-breakpoint-width) {
+    justify-content: center;
+  }
+}
+
+.docs-component-category-list-item {
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  width: 260px;
+
+  .mat-card-title {
+    font-size: 20px;
+  }
+
+  &, &:active, &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.docs-component-category-list-card-summary {
+  min-height: 2.4em;
+  margin-bottom: 8px;
+}
+
+.docs-component-category-list-header {
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    padding: 50px;
+  }
+}
