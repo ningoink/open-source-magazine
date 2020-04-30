@@ -12,8 +12,8 @@
 
 |2020|||
 |-|-|-|
-|[第一期](./docs/ningowood-001.md)|[第二期](./docs/ningowood-002.md)|[第三期 :heart:](./docs/ningowood-003.md)|
-|[第四期](./docs/ningowood-004.md)|||
+|[第一期](./src/assets/docs/2020/osm-202001.md)|[第二期](./src/assets/docs/2020/osm-202002.md)|[第三期](./src/assets/docs/2020/osm-202003.md)|
+|[第四期 :heart:](./src/assets/docs/2020/osm-202004.md)|||
 
 ## 选刊指南
 
@@ -31,6 +31,7 @@
 * [opensource.com](http://opensource.com)：更新频率很高，但新闻资讯类少
 * [InfoQ Open Source Topic](https://www.infoq.com/opensource/news)：更新频率低
 * [opensource.org](https://opensource.org)：更新频率低，主要围绕 OSI 自身
+* [sdxcentral -> Open Source](https://www.sdxcentral.com/open-source/)
 * ......逐步添加中
 
 公司
