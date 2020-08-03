@@ -6,12 +6,12 @@ import { Routes, RouterModule } from '@angular/router'
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./pages/app-home/app-home.module').then(m => m.AppHomeModule)
+    loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.AppHomeModule)
   },
-  {
-    path: 'browser',
-    loadChildren: () => import('./pages/osm-browser/osm-browser.module').then(m => m.OsmBrowserModule)
-  },
+  // {
+  //   path: 'browser',
+  //   loadChildren: () => import('./pages/osm-browser/osm-browser.module').then(m => m.OsmBrowserModule)
+  // },
   // {
   //   path: 'explore',
   //   loadChildren: () => import('./pages/osm-explore').then(m => n.OsmExploreComponent)

@@ -17,17 +17,7 @@ import { MatGridListModule } from '@angular/material/grid-list'
 import { MatCardModule } from '@angular/material/card'
 import { MatMenuModule } from '@angular/material/menu'
 
-// import { MatSliderModule } from '@angular/material/slider'
-// import { LayoutModule } from '@angular/cdk/layout'
-// import { MatSidenavModule } from '@angular/material/sidenav'
-// import { MatIconModule } from '@angular/material/icon'
-// import { MatListModule } from '@angular/material/list'
-// import { MatGridListModule } from '@angular/material/grid-list'
-// import { MatCardModule } from '@angular/material/card'
-// import { MatMenuModule } from '@angular/material/menu'
-
 @NgModule({
-  declarations: [],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -42,6 +32,9 @@ import { MatMenuModule } from '@angular/material/menu'
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
+  ],
+  declarations: [
+    AppComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

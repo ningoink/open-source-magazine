@@ -1,4 +1,4 @@
-import {VERSION} from '@angular/material/core'
+import { VERSION } from '@angular/material/core'
 
 export const osmVersion = VERSION.full
 
