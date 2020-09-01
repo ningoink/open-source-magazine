@@ -10,11 +10,10 @@
 
 ## 月刊汇总
 
-|2020|||
-|-|-|-|
-|[第一期](./src/assets/docs/2020/osm-202001.md)|[第二期](./src/assets/docs/2020/osm-202002.md)|[第三期](./src/assets/docs/2020/osm-202003.md)|
-|[第四期](./src/assets/docs/2020/osm-202004.md)|[第五期](./src/assets/docs/2020/osm-202005.md)|[第六期](./src/assets/docs/2020/osm-202004.md)|
-|[第七期 :heart:](./src/assets/docs/2020/osm-202007.md)|||
+|2020||||||
+|-|-|-|-|-|-|
+|[第一期](./src/assets/docs/2020/osm-202001.md)|[第二期](./src/assets/docs/2020/osm-202002.md)|[第三期](./src/assets/docs/2020/osm-202003.md)|[第四期](./src/assets/docs/2020/osm-202004.md)|[第五期](./src/assets/docs/2020/osm-202005.md)|[第六期](./src/assets/docs/2020/osm-202004.md)|
+|[第七期](./src/assets/docs/2020/osm-202007.md)|[第八期 :heart:](./src/assets/docs/2020/osm-202008.md)|||||
 
 ## 选刊指南
 
@@ -56,6 +55,7 @@
 
 * [百度新闻 -> 开源](https://www.baidu.com/s?rtt=1&bsst=1&cl=2&tn=news&word=%E5%BC%80%E6%BA%90)
 * [Q 资讯](https://www.infoq.cn/profile/1691780/publish)
+* [ZDNet 开源专栏](https://www.zdnet.com/topic/open-source)：更新频率很高
 * [InfoQ 开源专栏](https://www.infoq.cn/topic/opensource)：更新频率较高，新闻咨询类适中
 * [开源之道](http://opensourceway.community)：更新频率很高，原创度很高，对开源的认知程度很广
 * [开源中国](https://www.oschina.net/)：更新频率很高
@@ -124,7 +124,7 @@ Star 本项目代表支持与收藏；Watch 本项目代表订阅最及时的 is
 
 本刊 [贡献者列表](./contributor.md)，以及凝果屋的微信公众号（@ningowood）：
 
-![](http://qiniu.ningo.cloud/official-qrcode.png)
+![](http://qiniu.ningo.cloud/ningo/official-qrcode.png)
 
 ## 本地开发
 
