@@ -13,7 +13,7 @@
 |2020||||||
 |-|-|-|-|-|-|
 |[第一期](./src/assets/docs/2020/osm-202001.md)|[第二期](./src/assets/docs/2020/osm-202002.md)|[第三期](./src/assets/docs/2020/osm-202003.md)|[第四期](./src/assets/docs/2020/osm-202004.md)|[第五期](./src/assets/docs/2020/osm-202005.md)|[第六期](./src/assets/docs/2020/osm-202004.md)|
-|[第七期](./src/assets/docs/2020/osm-202007.md)|[第八期 :heart:](./src/assets/docs/2020/osm-202008.md)|||||
+|[第七期](./src/assets/docs/2020/osm-202007.md)|[第八期](./src/assets/docs/2020/osm-202008.md)|[第九期 :heart:](./src/assets/docs/2020/osm-202009.md)||||
 
 ## 选刊指南
 
