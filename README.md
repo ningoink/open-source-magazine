@@ -49,6 +49,10 @@
 * [O'Reilly Open Source Conference](https://conferences.oreilly.com/oscon/oscon-or)
 * ......逐步添加中
 
+视频
+
+* ......逐步添加中
+
 ### 国内开源
 
 媒体
@@ -60,6 +64,7 @@
 * [开源之道](http://opensourceway.community)：更新频率很高，原创度很高，对开源的认知程度很广
 * [开源中国](https://www.oschina.net/)：更新频率很高
 * [开源社](https://kaiyuanshe.cn)：更新频率低，主要围绕自身线下活动
+* [量子位 - 开源](https://www.qbitai.com/?s=%E5%BC%80%E6%BA%90)：更新评率中，一个月四五篇
 * ......逐步添加中
 
 公司
@@ -75,6 +80,10 @@
 活动
 
 * [OSC 源创会](https://www.oschina.net/event/ych)
+
+视频
+
+* ......逐步添加中
 
 ## 未来规划
 
